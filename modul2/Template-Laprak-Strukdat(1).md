@@ -2,9 +2,6 @@
 <p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
 
 ### A. array<br/>
 Array adalah tipe data terstruktur yang dapat menyimpan banyak data dengan satu nama yang sama, menempati memori secara berurutan, dan bertipe data sama [1]. Elemen array diakses menggunakan indeks yang dimulai dari 0 untuk elemen pertama [1]. Karena diakses langsung lewat indeks, pengaksesan elemen array memiliki kompleksitas waktu konstan O(1), namun ukuran array bersifat tetap dan harus ditentukan saat deklarasi [1]. Pada kode Guided, array digunakan untuk menyimpan sekumpulan nilai yang kemudian ditampilkan dengan perulangan `for`.
@@ -526,8 +523,7 @@ Program ini digunakan untuk mengolah angka yang ada di dalam array. Ada beberapa
 ## Kesimpulan
 Berdasarkan praktikum yang telah dilakukan, dapat disimpulkan bahwa array adalah struktur data yang efisien untuk menyimpan banyak data bertipe sama dan dapat dibuat dalam berbagai dimensi sesuai kebutuhan, mulai dari satu dimensi hingga multidimensi. Array dua dimensi terbukti sesuai untuk pengolahan matriks, seperti operasi penjumlahan, pengurangan, dan perkalian matriks 3x3. Pointer memungkinkan program mengakses data melalui alamat memorinya, dan bersama reference dapat dipakai untuk mengubah nilai variabel asli di dalam fungsi, seperti pada penukaran tiga variabel. Selain itu, penggunaan fungsi, prosedur, dan switch-case membuat program lebih terstruktur, mudah dibaca, dan mudah dikembangkan, seperti pada program menu pengolahan array yang mencari nilai maksimum, minimum, dan rata-rata. Dengan demikian, praktikum ini membantu memahami dasar penyimpanan dan pengelolaan data di memori menggunakan bahasa C++.
 
-
 ## Referensi
 [1] Setiyawan, R. D., Hermawan, D., Abdillah, A. F., Mujayanah, A., & Vindua, R. (2024). "Penggunaan Struktur Data Stack dalam Pemrograman C++ dengan Pendekatan Array dan Linked List". JUTECH, 5(2), 484-497. Universitas Pamulang. Diakses melalui https://jurnal.stkippersada.ac.id/jurnal/index.php/jutech/article/download/4263/pdf
-<br>[2] [Nama penulis]. (2019). "Pointer". OSF Preprints. https://doi.org/10.31219/osf.io/k29rh
+<br>[2] Arraffi, A. (2019). "Pointer". OSF Preprints. https://doi.org/10.31219/osf.io/k29rh
 
