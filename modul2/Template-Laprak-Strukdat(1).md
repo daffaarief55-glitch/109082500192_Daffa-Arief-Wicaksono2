@@ -6,17 +6,29 @@ isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku
 contoh :
 Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
 
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+### A. array<br/>
+Array adalah tipe data terstruktur yang dapat menyimpan banyak data dengan satu nama yang sama, menempati memori secara berurutan, dan bertipe data sama [1]. Elemen array diakses menggunakan indeks yang dimulai dari 0 untuk elemen pertama [1]. Karena diakses langsung lewat indeks, pengaksesan elemen array memiliki kompleksitas waktu konstan O(1), namun ukuran array bersifat tetap dan harus ditentukan saat deklarasi [1]. Pada kode Guided, array digunakan untuk menyimpan sekumpulan nilai yang kemudian ditampilkan dengan perulangan `for`.
 
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+#### 1.Array Satu Dimensi
+Array satu dimensi adalah sekumpulan data yang diacu oleh satu identifier dan disusun berurutan dalam satu deret [1]. Bentuk deklarasinya adalah tipe_data nama_array[ukuran];, contohnya int nilai[5];, dan elemennya diakses dengan nilai[0], nilai[1], dan seterusnya.
+
+#### 2. Array Dua Dimensi
+Array dua dimensi terdiri dari dua indeks, yaitu baris dan kolom, sehingga dapat dipakai untuk menyimpan data terstruktur dalam bentuk matriks atau tabel [1]. Deklarasinya dilakukan dengan menentukan tipe data, nama array, dan ukuran pada setiap dimensi, misalnya int nilai[3][3];. Array jenis ini dipakai pada program penjumlahan, pengurangan, dan perkalian matriks 3x3 di bagian Unguided.
+
+#### 3. Array Multidimensi
+Array multidimensi adalah array dengan dimensi lebih dari dua. Setiap tambahan dimensi menambah satu indeks untuk mengakses elemen, misalnya data[2][3][3] untuk tiga dimensi dan data[2][2][2][2] untuk empat dimensi.
+
+### B. Pointer<br/>
+Pointer adalah variabel yang menyimpan atau menunjuk suatu alamat memori, bukan menyimpan nilai data secara langsung [2]. Pointer juga bersifat dinamis, karena dapat digunakan saat dibutuhkan saja dan memorinya dapat dibebaskan setelah tidak dipakai [2]. Hal ini membuat pointer menjadi dasar dari struktur data seperti linked list, yaitu elemen-elemen yang saling terhubung melalui alamat elemen data yang tersimpan di memori [1].
+
+#### 1. Operator Alamat (&) dan Operator Dereference (*)
+Operator & digunakan untuk mendapatkan alamat memori suatu variabel, sedangkan operator * digunakan untuk mengakses nilai yang berada pada alamat yang disimpan pointer. Pada kode Guided, px = &x;membuat pointer px menyimpan alamat x, dan *px menghasilkan nilai x yaitu 87.
+
+#### 2. Pointer, Array, dan String
+Nama array merepresentasikan alamat elemen pertamanya, sehingga pointer dapat dipakai untuk mengakses elemen array. String pada C++ dapat disimpan sebagai array karakter yang diakhiri karakter null (\0), seperti char nama[] = "strukdat";`.
+
+#### 3. Pass by Pointer dan Pass by Reference
+Parameter fungsi dapat dikirim melalui pointer (int *x) atau reference (int &x) sehingga perubahan nilai di dalam fungsi ikut mengubah variabel aslinya. Pointer bekerja dengan alamat memori yang harus di-dereference dengan *, sedangkan reference adalah nama alias dari variabel yang sudah ada sehingga bisa dipakai langsung. Konsep ini dipakai pada Unguided 2 untuk menukar nilai tiga variabel.
 
 ## Guided 
 
@@ -512,9 +524,10 @@ Program ini digunakan untuk mengolah angka yang ada di dalam array. Ada beberapa
 
 
 ## Kesimpulan
-...
+Berdasarkan praktikum yang telah dilakukan, dapat disimpulkan bahwa array adalah struktur data yang efisien untuk menyimpan banyak data bertipe sama dan dapat dibuat dalam berbagai dimensi sesuai kebutuhan, mulai dari satu dimensi hingga multidimensi. Array dua dimensi terbukti sesuai untuk pengolahan matriks, seperti operasi penjumlahan, pengurangan, dan perkalian matriks 3x3. Pointer memungkinkan program mengakses data melalui alamat memorinya, dan bersama reference dapat dipakai untuk mengubah nilai variabel asli di dalam fungsi, seperti pada penukaran tiga variabel. Selain itu, penggunaan fungsi, prosedur, dan switch-case membuat program lebih terstruktur, mudah dibaca, dan mudah dikembangkan, seperti pada program menu pengolahan array yang mencari nilai maksimum, minimum, dan rata-rata. Dengan demikian, praktikum ini membantu memahami dasar penyimpanan dan pengelolaan data di memori menggunakan bahasa C++.
+
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] Setiyawan, R. D., Hermawan, D., Abdillah, A. F., Mujayanah, A., & Vindua, R. (2024). "Penggunaan Struktur Data Stack dalam Pemrograman C++ dengan Pendekatan Array dan Linked List". JUTECH, 5(2), 484-497. Universitas Pamulang. Diakses melalui https://jurnal.stkippersada.ac.id/jurnal/index.php/jutech/article/download/4263/pdf
+<br>[2] [Nama penulis]. (2019). "Pointer". OSF Preprints. https://doi.org/10.31219/osf.io/k29rh
+
