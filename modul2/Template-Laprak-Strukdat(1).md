@@ -395,13 +395,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![ Output_Unguided2](https://github.com/daffaarief55-glitch/109082500192_Daffa-Arief-Wicaksono2/blob/main/modul2/output_unguided/outout_unguided2.png?raw=true)
 
 Program ini digunakan untuk mengubah urutan nilai pada variabel a, b, dan c. Nilai ketiga variabel dimasukkan oleh pengguna, lalu ditukar menggunakan pointer dan reference. Setelah proses selesai, program menampilkan nilai sebelum dan sesudah ditukar. Pointer bekerja dengan alamat memori, sedangkan reference
 
