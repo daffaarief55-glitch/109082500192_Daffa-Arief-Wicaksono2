@@ -334,7 +334,7 @@ int main(){
 
 ##### Output 1
 
-![Output_unguided](https://github.com/daffaarief55-glitch/109082500192_Daffa-Arief-Wicaksono/blob/main/modul1/output/output_latihan1.png?raw=true)
+![Output_unguided](https://github.com/daffaarief55-glitch/109082500192_Daffa-Arief-Wicaksono2/blob/main/modul2/output_unguided/output_unguided.png?raw=true)
 
 
 Program ini berisi dua array yang masing-masing memiliki 3 baris dan 3 kolom. Kedua array tersebut kemudian dihitung dengan operasi penjumlahan, pengurangan, dan perkalian. Hasil dari setiap perhitungan disimpan ke array baru dan ditampilkan ke layar.
