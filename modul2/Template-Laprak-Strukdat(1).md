@@ -505,13 +505,8 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output_Unguided3](https://github.com/daffaarief55-glitch/109082500192_Daffa-Arief-Wicaksono2/blob/main/modul2/output_unguided/output_unguided3.png?raw=true)
 
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 Program ini digunakan untuk mengolah angka yang ada di dalam array. Ada beberapa pilihan yang bisa digunakan, seperti melihat semua angka, mencari angka terbesar dan terkecil, serta menghitung rata-rata. Program akan terus menampilkan menu sampai pengguna memilih pilihan untuk keluar.
 
